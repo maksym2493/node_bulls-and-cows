@@ -19,7 +19,7 @@ async function play(numberToGuess) {
     }
 
     if (!checkIsValidUserInput(userInput)) {
-      console.log('Please, write the corect number.\n');
+      console.log('Please, write the correct number.\n');
       play(numberToGuess);
 
       return;
