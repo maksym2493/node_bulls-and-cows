@@ -9,7 +9,7 @@ const { getBullsAndCows } = require('./modules/getBullsAndCows');
 /**
  * @param {string} numberToGuess
  */
-async function play(numberToGuess) {
+function play(numberToGuess) {
   rl.question('Try to guess the number: ', (userInput) => {
     if (numberToGuess === +userInput) {
       console.log('The number was found!');
